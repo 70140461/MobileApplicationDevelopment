@@ -44,8 +44,7 @@ extends State<CurrencyConverterPage>{
                   borderSide: BorderSide(color: Color.fromARGB(255, 149, 147, 150), width: 2.0, style: BorderStyle.solid),
                 ),
               ),
-              keyboardType: TextInputType.numberWithOptions(
-                decimal: true),
+              keyboardType: TextInputType.numberWithOptions(decimal: true),
             ),
           ),
           TextButton(
